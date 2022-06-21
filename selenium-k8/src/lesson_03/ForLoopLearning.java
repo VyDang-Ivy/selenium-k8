@@ -6,8 +6,15 @@ public class ForLoopLearning {
         //requireRounds: 10
         // total: 0
 
-        for (int number = 0; number < 10; number++) {
+        final int MAX_NUM = 10;
+        //Infinitive loop
+
+        byte number = 0;
+
+        for (; number < MAX_NUM; ) {
             System.out.println(number);
+            number++;
+
         }
     }
 }
