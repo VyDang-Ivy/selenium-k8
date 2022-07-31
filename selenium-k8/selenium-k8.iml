@@ -7,5 +7,49 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-devtools-v101-4.3.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-safari-driver-4.3.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-devtools-v103-4.3.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-chrome-driver-4.3.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-json-4.3.0.jar!/" />
+          <root url="file://$MODULE_DIR$/../../../Automation/lib" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-remote-driver-4.3.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-support-4.3.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-devtools-v102-4.3.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-devtools-v85-4.3.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-opera-driver-4.3.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-api-4.3.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-http-4.3.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-ie-driver-4.3.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-chromium-driver-4.3.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-edge-driver-4.3.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-firefox-driver-4.3.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-java-4.3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-remote-driver-4.3.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-devtools-v85-4.3.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-api-4.3.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-firefox-driver-4.3.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-opera-driver-4.3.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-chrome-driver-4.3.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-devtools-v103-4.3.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-edge-driver-4.3.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-safari-driver-4.3.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-json-4.3.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-http-4.3.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-devtools-v101-4.3.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-devtools-v102-4.3.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-ie-driver-4.3.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-chromium-driver-4.3.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../Automation/selenium-support-4.3.0-sources.jar!/" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../../../Automation/lib" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>

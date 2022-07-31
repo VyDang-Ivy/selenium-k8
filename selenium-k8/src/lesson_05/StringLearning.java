@@ -1,5 +1,7 @@
 package lesson_05;
 
+import java.util.Arrays;
+
 public class StringLearning {
 
     public static void main(String[] args) {
@@ -38,7 +40,7 @@ public class StringLearning {
  //           System.out.println("Password format is incorrect");
  //       }
 
-        // Immutable
+        // Immutable - Lesson 6
 
         String badWordsContainer = "bad, very bad, something else, bad!!";
         String filteredStr = badWordsContainer.replace("bad", "b**");
@@ -48,9 +50,39 @@ public class StringLearning {
         System.out.println(badWordsContainer.trim());
 
         // subString, indexOf, split
+
         String url = "https://google.com";
         System.out.println(url.substring(0, 5));
         System.out.println(url.substring(8, url.length()));
+
+        System.out.println(url.indexOf("o"));
+        System.out.println(url.contains("https"));
+
+        String[] splitStr = url.split("://");
+        System.out.println(Arrays.toString(splitStr));
+
+        // RegularExpression | Regex
+
+        String cookingTimeStr = "105mins";
+        String cookingTimeNumStr = cookingTimeStr.replaceAll("[^0-9]", "");
+        System.out.println(cookingTimeNumStr);
+
+        int cookingTimeNum = Integer.valueOf(cookingTimeNumStr);
+        System.out.println("My cooking Time: " + (cookingTimeNum + 1));
+
+        for (int index = 0; index < 5; index++) {
+            System.out.println("Element " + (index + 1));
+        }
+
+        // Pattern, Matcher
+
+        // Concat | Concatenation
+        String s1 = "Hello, ";
+        String s2 = "Goodbye, ";
+        System.out.println(s1.concat(s2).concat("!"));
+
+        // StringBuilder
+
 
     }
 }
